@@ -281,9 +281,10 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
-  white-space: nowrap;
+  white-space: normal;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
+  text-overflow: ellipsis;
 }
 
 .content__video-card-thumbnail {
